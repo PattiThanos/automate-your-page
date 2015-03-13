@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ 
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+-ms-box-sizing: border-box;
+box-sizing: border-box;
+	}
+
+body { 
+padding: 0; 
+margin: 0; 
+ }
+
+
+/* flex is not working in my browser */
+.app {
+	display: flex;
+	width: 600px;
+}
+.appLeft {
+	width: 100px;
+	float: left;
+	text-align: center;
+	margin-top: 60px;
+}
+
+.box1 {
+	width: 40px;
+	height: 40px;
+	background-color: #33bebe;
+	padding: 10px;
+	margin: 10px;
+	}
+	
+.box2 {
+	width: 40px;
+	height: 40px;
+	background-color: #7d8686;
+	padding: 10px;
+	margin: 10px;
+	}
+
+.description {
+	font: Georgia, "Times New Roman", Times, serif;
+	color:#484848; 
+	padding: 10px;
+	width: 60%;
+}
+
+.title {
+	font-weight: bold;
+	margin: 10px;
+	background-color: #33bebe;
+	color: #FFF;
+	padding: 10px;
+	}
+	
+.image {
+	float: left;
+	padding: 10px;
+	}
+	
+
+
