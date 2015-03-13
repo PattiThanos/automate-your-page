@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+	
+/* set margin and padding to 0 in body to show all text and images in all containers */
+body {
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	margin: 0; 
+	padding: 0;
+	font-size: 100%;
+}
+
+.lesson {
+    background-color: #294860;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+}
+
+/* Headers */ 
+h1 {
+    text-align: center;
+    color: #294860;
+}
+h2 {
+    margin: 10px;
+}
+
+.concept {
+    background-color: #DFEAF1;
+    padding: 4px;
+    margin: 10px;
+    border-radius: 4px;
+    color: black;
+}
+
+.concept-title {
+    font-size: 20px;
+    margin: 8px;
+    text-align: center;
+    color: #294860;
+}
+
+.concept-description {
+    font-weight: lighter;
+    margin: 6px;
+}
+
+.concept-leftCol {
+	margin: 7px;
+	float: left;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.footer {
+	font-size:small;
+	margin: 10px;
+	}
+	
+.footer-right {
+	font-size:small;
+	margin: 10px;
+	float:right;
+	}
+	
+.footer-left {
+	font-size:small;
+	margin: 10px;
+	float:left;
+	}
+
